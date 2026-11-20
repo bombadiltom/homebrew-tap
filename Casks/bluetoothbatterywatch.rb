@@ -1,6 +1,6 @@
 cask "bluetoothbatterywatch" do
-  version "1.0"
-  sha256 "218f744b4911576218fec8e985f4c583a7e15f50d1aca2c6083bfc77cb87a363"
+  version "1.1"
+  sha256 "814d185d2decb8f193c49438b33ac9577fd8eacc350819cfec56b88c9f08761c"
 
   url "https://github.com/bombadiltom/BluetoothBatteryWatch/releases/download/v#{version}/BluetoothBatteryWatch-#{version}.zip"
   name "BluetoothBatteryWatch"
