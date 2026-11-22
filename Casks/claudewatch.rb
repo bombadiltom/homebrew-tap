@@ -1,6 +1,6 @@
 cask "claudewatch" do
-  version "1.8"
-  sha256 "11faed5b6e01820be2056af95c07d7879e8e66e14d16e9d346713f87e4e20f93"
+  version "1.9"
+  sha256 "abd79591518ac4d2cc1957ba7f1bb53c71b0043cbe5022eff508c09f2f1e1b74"
 
   url "https://github.com/bombadiltom/ClaudeWatch/releases/download/v#{version}/ClaudeWatch-#{version}.zip"
   name "ClaudeWatch"
