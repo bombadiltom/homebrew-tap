@@ -1,6 +1,6 @@
 cask "tidygrid" do
-  version "1.1"
-  sha256 "4ddebf6d1cefacf0c145b4773ddf3a8ec3fe38a5fbcf9731259f947d6d95dd2c"
+  version "1.2"
+  sha256 "1bfe6fe36acb9345bb12c57d4abd0a3bb88a90f77b7b71bec3c7347732df50a8"
 
   url "https://github.com/bombadiltom/tidygrid/releases/download/v#{version}/TidyGrid-#{version}.zip"
   name "TidyGrid"
