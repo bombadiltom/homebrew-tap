@@ -1,6 +1,6 @@
 cask "claudewatch" do
-  version "1.6"
-  sha256 "7253f8756e2c57977677c95883e82401c76b292badd22ed33052257504430835"
+  version "1.7"
+  sha256 "8d94c054ec0271d6c42174e15a493ec9057f3c57ece3c1fa96127fc1046f025c"
 
   url "https://github.com/bombadiltom/ClaudeWatch/releases/download/v#{version}/ClaudeWatch-#{version}.zip"
   name "ClaudeWatch"
@@ -16,10 +16,12 @@ cask "claudewatch" do
 
   app "ClaudeWatch.app"
 
-  uninstall quit: "de.lorenz-unna.claudewatch"
+  uninstall quit: ["de.idiotentruppe.claudewatch", "de.lorenz-unna.claudewatch"]
 
   zap trash: [
+    "~/Library/Caches/de.idiotentruppe.claudewatch",
     "~/Library/Caches/de.lorenz-unna.claudewatch",
+    "~/Library/Preferences/de.idiotentruppe.claudewatch.plist",
     "~/Library/Preferences/de.lorenz-unna.claudewatch.plist",
   ]
 end
