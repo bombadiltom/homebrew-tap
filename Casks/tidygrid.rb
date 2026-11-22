@@ -16,10 +16,11 @@ cask "tidygrid" do
 
   app "TidyGrid.app"
 
-  uninstall quit: "app.tidygrid.TidyGrid"
+  uninstall quit: "de.idiotentruppe.tidygrid"
 
   zap trash: [
     "~/Library/Logs/TidyGrid-selftest.log",
     "~/Library/Preferences/app.tidygrid.TidyGrid.plist",
+    "~/Library/Preferences/de.idiotentruppe.tidygrid.plist",
   ]
 end
