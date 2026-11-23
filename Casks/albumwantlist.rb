@@ -1,6 +1,6 @@
 cask "albumwantlist" do
-  version "1.0"
-  sha256 "5b8d7de6adb2eb3b28693fc40436204ebd57eb2953fa3c3edc4ddddad3c4559b"
+  version "1.1"
+  sha256 "5d9ba7277a8a51a8b75c04ca5169dc92b269ef6e2e0f4ebecfeedc655761c0e2"
 
   url "https://github.com/bombadiltom/albumwantlist-releases/releases/download/v#{version}/AlbumWantList-#{version}.zip"
   name "AlbumWantList"
