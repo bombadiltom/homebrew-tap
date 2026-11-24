@@ -1,6 +1,6 @@
 cask "albumtodolist" do
-  version "1.2.0"
-  sha256 "d0a0efe7ace208d8dd92a44b8efa0add378bf6e4f475d54fa8d7e34a9bbbadf8"
+  version "1.2.1"
+  sha256 "4743c6e90578db5748c8f685133913c9e32303bc3e4449e831188aac25d3e99c"
 
   url "https://github.com/bombadiltom/albumtodolist-releases/releases/download/v#{version}/AlbumTodoList-#{version}.zip"
   name "AlbumTodoList"
