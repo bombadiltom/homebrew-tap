@@ -1,6 +1,6 @@
 cask "bluetoothbatterywatch" do
-  version "1.1.1"
-  sha256 "15462455d00e7a423b7c511c99d6cee3ec4477ef36a58c7202b413650cca9e83"
+  version "1.2"
+  sha256 "5953187dd8988ab85ffc50fc722dd4531cae1a432ba592b65839117a2db4003e"
 
   url "https://github.com/bombadiltom/BluetoothBatteryWatch/releases/download/v#{version}/BluetoothBatteryWatch-#{version}.zip"
   name "BluetoothBatteryWatch"
@@ -16,7 +16,10 @@ cask "bluetoothbatterywatch" do
 
   app "BluetoothBatteryWatch.app"
 
-  uninstall quit: "de.lorenz-unna.batterywatch"
+  uninstall quit: "de.idiotentruppe.batterywatch"
 
-  zap trash: "~/Library/Preferences/de.lorenz-unna.batterywatch.plist"
+  zap trash: [
+    "~/Library/Preferences/de.idiotentruppe.batterywatch.plist",
+    "~/Library/Preferences/de.lorenz-unna.batterywatch.plist",
+  ]
 end
