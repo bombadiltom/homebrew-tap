@@ -1,6 +1,6 @@
 cask "concertodo" do
-  version "1.2"
-  sha256 "f13494f32b32bd8db9304fc8023ec31e15401d733d96e5eafd5cacc5b19858af"
+  version "1.3"
+  sha256 "93d40dcba7fd9dcd61c0ed7cc4986f3a1d83210bde0a705bbf3b4c89e863d088"
 
   url "https://github.com/bombadiltom/concertodo-releases/releases/download/v#{version}/ConcerTodo-#{version}.zip"
   name "ConcerTodo"
